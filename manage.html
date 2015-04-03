@@ -1,0 +1,74 @@
+<div ng-controller="manageController" class="manageUser">
+
+    <h2>Add a new user</h2>
+	<form name="userForm" class="simple-form" novalidate>  
+		 <div>
+			<label class="desc">
+			  First Name
+			</label>
+	        <div>
+	           <input type="text" name="fname" ng-model="user.firstName" placeholder="First Name" required/>
+			   <span style="color:red" ng-show="userForm.fname.$invalid && !userForm.fname.$pristine">
+			     <span ng-show="userForm.fname.$invalid && !userForm.fname.$pristine" class="help-block">Required.</span>
+			   </span>
+			 </div>
+		 </div>	 
+		 <div>
+			<label class="desc">
+			  Last Name
+			</label>
+	        <div>
+	           <input type="text" name="lname" ng-model="user.lastName" placeholder="Last Name" required> 
+			   <span style="color:red" ng-show="userForm.lname.$dirty && userForm.lname.$invalid">
+			      <span ng-show="userForm.lname.$error.required">Required.</span>
+			   </span>
+			 </div>
+		 </div>	 
+		 
+		 <div>
+			<label class="desc">
+			  Gender
+			</label>
+	        <div>
+	            <select ng-model="user.gender" ng-options="obj for obj in genderValue">
+                   <option value="">Please select  a name</option>
+                </select>
+			 </div>
+		 </div>
+		 
+		 <div>
+			<label class="desc">
+			  Phone 
+			</label>
+	        <div>
+	           <input type="number" name="phone" ng-model="user.phone" placeholder="Phone number" required>
+			   <span style="color:red" ng-show="userForm.phone.$dirty && userForm.phone.$invalid">
+			      <span ng-show="userForm.phone.$error.required">Required.</span>
+			   </span>
+			 </div>
+		 </div>	 
+		 <div>
+			<label class="desc">
+			  Country
+			</label>
+	        <div>
+	           <input type="text" name="country" ng-model="user.country" placeholder="Country" required>
+			   <span style="color:red" ng-show="userForm.country.$dirty && userForm.country.$invalid">
+			      <span ng-show="userForm.country.$error.required">Required.</span>
+			   </span>
+			 </div>
+		 </div>	 	 
+		 
+		<div class="buttonGroup">
+			<button type="submit" ng-click="addUser(user,$event)" ng-disabled="userForm.$invalid">Add User</button>
+			<button type="button" ng-click="resetForm()">Reset</button>
+		</div>
+    </form>
+   
+   <br>
+
+   <div ng-bind="fromServer" class="userCreated">
+
+   </div>
+
+</div>

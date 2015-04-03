@@ -1,0 +1,20 @@
+<div ng-controller="userController">
+
+   <h2>Users list</h2>
+   <table>
+      <tr>	  
+        <th>First Name</th>
+		<th>Last Name</th>
+		<th>Phone number</th>
+        <th>Country</th>
+      </tr>
+      
+      <tr ng-repeat="x in userData">        
+		<td>{{x.fname}}</td>
+		<td>{{x.lname}}</td>
+		<td>{{x.phone}}</td>
+        <td>{{x.country}}</td>		
+      </tr>     
+      
+    </table>
+</div>

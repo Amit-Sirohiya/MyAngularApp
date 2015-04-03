@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+   <meta charset="utf-8" />
+    <title>AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
+    <script src="js/script.js"></script>	
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body ng-app="myApp" ng-controller="userController">
+  
+  <div ng-include="'navigation.html'"></div>
+  
+  <div ng-view>
+     <!--This DIV loads templates depending upon route.-->
+  </div>
+   
+
+</body>
+
+</html>
