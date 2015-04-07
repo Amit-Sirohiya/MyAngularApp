@@ -1,15 +1,15 @@
-<div ng-controller="manageController" class="manageUser">
 
-    <h2>Add a new user</h2>
-	<form name="userForm" class="simple-form" novalidate>  
+<h2>Add a new user</h2>
+<div ng-controller="manageController" class="manageUser">
+	<form name="userForm" class="simple-form" ng-submit="addUser(user,$event)" novalidate>  
 		 <div>
 			<label class="desc">
 			  First Name
 			</label>
 	        <div>
-	           <input type="text" name="fname" ng-model="user.firstName" placeholder="First Name" required/>
-			   <span style="color:red" ng-show="userForm.fname.$invalid && !userForm.fname.$pristine">
-			     <span ng-show="userForm.fname.$invalid && !userForm.fname.$pristine" class="help-block">Required.</span>
+	           <input type="text" name="fname" ng-model="user.firstName" placeholder="First Name" ng-maxlength="12" required/>
+			   <span style="color:red" ng-show="userForm.fname.$invalid && userForm.fname.$dirty">
+			     <span ng-show="userForm.fname.$invalid && userForm.fname.$dirty" class="help-block">Invalid</span>
 			   </span>
 			 </div>
 		 </div>	 
@@ -18,9 +18,9 @@
 			  Last Name
 			</label>
 	        <div>
-	           <input type="text" name="lname" ng-model="user.lastName" placeholder="Last Name" required> 
+	           <input type="text" name="lname" ng-model="user.lastName"  placeholder="Last Name" required> 
 			   <span style="color:red" ng-show="userForm.lname.$dirty && userForm.lname.$invalid">
-			      <span ng-show="userForm.lname.$error.required">Required.</span>
+			      <span ng-show="userForm.lname.$error.required">Invalid</span>
 			   </span>
 			 </div>
 		 </div>	 
@@ -31,7 +31,7 @@
 			</label>
 	        <div>
 	            <select ng-model="user.gender" ng-options="obj for obj in genderValue">
-                   <option value="">Please select  a name</option>
+                   <option value="">Select</option>
                 </select>
 			 </div>
 		 </div>
@@ -41,27 +41,50 @@
 			  Phone 
 			</label>
 	        <div>
-	           <input type="number" name="phone" ng-model="user.phone" placeholder="Phone number" required>
+	           <input type="number" name="phone" ng-model="user.phone" placeholder="Phone number"  required>
 			   <span style="color:red" ng-show="userForm.phone.$dirty && userForm.phone.$invalid">
-			      <span ng-show="userForm.phone.$error.required">Required.</span>
+			      <span ng-show="userForm.phone.$error.required">Invalid</span>
 			   </span>
 			 </div>
 		 </div>	 
-		 <div>
+ 	 
+		 
+		<div>
 			<label class="desc">
 			  Country
 			</label>
+	        <div> 
+				<select ng-model="user.countryId" ng-change="onCountryChange()" ng-options="obj.countryId as obj.countryName for obj in countryList">
+				  <option value="">Select</option>
+				</select>
+			</div>
+		</div>	 
+        
+		<div>
+			<label class="desc">
+			  State
+			</label>
 	        <div>
-	           <input type="text" name="country" ng-model="user.country" placeholder="Country" required>
-			   <span style="color:red" ng-show="userForm.country.$dirty && userForm.country.$invalid">
-			      <span ng-show="userForm.country.$error.required">Required.</span>
-			   </span>
-			 </div>
-		 </div>	 	 
+				<select ng-model="user.stateId" ng-disabled="!user.countryId" ng-change="onStateChange()" ng-options="obj.stateId as obj.stateName for obj in stateList">
+				   <option value="">Select</option>
+				</select>		
+	        </div>
+		</div>	 
+		
+		<div>
+			<label class="desc">
+			  City
+			</label>
+	        <div>
+				<select ng-model="user.cityId" ng-disabled="!user.countryId || !user.stateId" ng-options="obj.cityId as obj.cityName for obj in cityList">
+				    <option value="">Select</option>
+				</select>
+		 	 </div>
+		 </div>	 
 		 
 		<div class="buttonGroup">
-			<button type="submit" ng-click="addUser(user,$event)" ng-disabled="userForm.$invalid">Add User</button>
-			<button type="button" ng-click="resetForm()">Reset</button>
+			<button type="submit"  ng-disabled="userForm.$invalid"  >Add User</button>
+			<button type="button" ng-click="resetForm();" >Reset</button>
 		</div>
     </form>
    
@@ -70,5 +93,4 @@
    <div ng-bind="fromServer" class="userCreated">
 
    </div>
-
 </div>

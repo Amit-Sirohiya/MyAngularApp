@@ -1,15 +1,20 @@
 <div ng-controller="userController">
 
    <h2>Users list</h2>
+   
+   Filter  <input type="text" name="searchUser" ng-model="searchUser" placeholder="Search"/>
+   
    <table>
-      <tr>	  
+      <tr>	
+        <th></th>	  
         <th>First Name</th>
 		<th>Last Name</th>
 		<th>Phone number</th>
         <th>Country</th>
       </tr>
       
-      <tr ng-repeat="x in userData">        
+      <tr ng-repeat="x in userData | filter:searchUser">  
+        <td><img src="img/delete.png" ng-click="deleteUser(x.id,x.fname,x.lname)" class="deleteIcon"/></td>      
 		<td>{{x.fname}}</td>
 		<td>{{x.lname}}</td>
 		<td>{{x.phone}}</td>
@@ -17,4 +22,5 @@
       </tr>     
       
     </table>
+	
 </div>
