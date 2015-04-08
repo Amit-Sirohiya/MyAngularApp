@@ -18,7 +18,7 @@
 			  Last Name
 			</label>
 	        <div>
-	           <input type="text" name="lname" ng-model="user.lastName"  placeholder="Last Name" required> 
+	           <input type="text" name="lname" ng-model="user.lastName" ng-maxlength="12" placeholder="Last Name" required> 
 			   <span style="color:red" ng-show="userForm.lname.$dirty && userForm.lname.$invalid">
 			      <span ng-show="userForm.lname.$error.required">Invalid</span>
 			   </span>
@@ -41,9 +41,12 @@
 			  Phone 
 			</label>
 	        <div>
-	           <input type="number" name="phone" ng-model="user.phone" placeholder="Phone number"  required>
+	           <input type="number" name="phone" ng-model="user.phone" ng-minlength="10" ng-maxlength="10" placeholder="Phone number"  required>
 			   <span style="color:red" ng-show="userForm.phone.$dirty && userForm.phone.$invalid">
 			      <span ng-show="userForm.phone.$error.required">Invalid</span>
+			   </span>
+			   <span style="color:red" class="help-block" ng-show="((userForm.phone.$error.minlength || userForm.phone.$error.maxlength) && userForm.phone.$dirty) ">
+			       Phone no. should be of 10 digits
 			   </span>
 			 </div>
 		 </div>	 

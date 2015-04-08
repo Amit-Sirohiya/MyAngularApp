@@ -1,26 +1,23 @@
 <div ng-controller="userController">
-
    <h2>Users list</h2>
-   
-   Filter  <input type="text" name="searchUser" ng-model="searchUser" placeholder="Search"/>
-   
-   <table>
-      <tr>	
-        <th></th>	  
-        <th>First Name</th>
-		<th>Last Name</th>
-		<th>Phone number</th>
-        <th>Country</th>
-      </tr>
-      
-      <tr ng-repeat="x in userData | filter:searchUser">  
-        <td><img src="img/delete.png" ng-click="deleteUser(x.id,x.fname,x.lname)" class="deleteIcon"/></td>      
-		<td>{{x.fname}}</td>
-		<td>{{x.lname}}</td>
-		<td>{{x.phone}}</td>
-        <td>{{x.country}}</td>		
-      </tr>     
-      
-    </table>
-	
+   <div>	   
+	   Filter  <input type="text" name="searchUser" ng-model="searchUser" placeholder="Search"/>
+	   <table>
+		  <tr>	
+			<th></th>	  
+			<th>Name</th>
+			<th>Gender</th>
+			<th>Mobile</th>
+			<th>Address</th>
+		  </tr>
+		  
+		  <tr ng-repeat="x in userData | filter:searchUser | orderBy :'fname' ">  
+			<td><img src="img/delete.png" ng-click="deleteUser(x.id,x.fname,x.lname)" class="deleteIcon"/></td>      
+			<td><a class='home' href='#/view/{{x.id}}'>{{x.fname}} {{x.lname}}</a></td>
+			<td>{{x.gender}}</td>
+			<td>{{x.phone}}</td>
+			<td>{{x.cityName}}, {{x.stateName}}, {{x.countryName}}</td>		
+		  </tr>           
+		</table>	
+   </div>
 </div>

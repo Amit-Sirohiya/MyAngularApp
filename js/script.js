@@ -10,12 +10,25 @@ app.config(["$routeProvider",function($routeProvider){
 		templateUrl: 'search.html',
 		controller: 'searchController'
 	}).
+	when('/view/:userId',{
+		templateUrl: 'view.html',
+		controller: 'viewUserController'
+	}).
 	otherwise({
 	  templateUrl: 'list.html',
 	  controller: 'userController'
 	});
 }]);
 
+app.controller('viewUserController',['$scope','$http','$routeParams',function($scope,$http,$routeParams) {
+	
+   var promise=$http.get('getDetails.php?userId='+$routeParams.userId);
+	
+	promise.success(function(data) {
+	  $scope.user=data;
+    });	    
+	
+}]);
 
 app.controller('userController',['$scope','$http',function($scope,$http) {
 	
@@ -77,7 +90,7 @@ app.controller('manageController',function($scope,$http,$route,$timeout){
 	};	
 	
 	$scope.countryList={};
-    var res=$http.get('/myApp/services/getDetails.php?getParam="country"');
+    var res=$http.get('/myApp/getDetails.php?getParam="country"');
     res.success(function(data) {
 	  $scope.countryList=data;
     });	   
@@ -87,7 +100,7 @@ app.controller('manageController',function($scope,$http,$route,$timeout){
 		  if( $scope.countryIdVal !=null){
 				$http({
 					method: 'GET',
-					url: '/myApp/services/getDetails.php?getParam="state"&countryId='+ $scope.countryIdVal,
+					url: '/myApp/getDetails.php?getParam="state"&countryId='+ $scope.countryIdVal,
 				}).success(function (data) {                    
 					$scope.stateList = data;
 				});
@@ -100,7 +113,7 @@ app.controller('manageController',function($scope,$http,$route,$timeout){
 		  if($scope.stateIdVal !=null){
 				$http({
 					method: 'GET',
-					url: '/myApp/services/getDetails.php?getParam="city"&countryId='+ $scope.countryIdVal+'&stateId='+$scope.stateIdVal,
+					url: '/myApp/getDetails.php?getParam="city"&countryId='+ $scope.countryIdVal+'&stateId='+$scope.stateIdVal,
 				}).success(function (data) {                    
 					$scope.cityList = data;
 				});

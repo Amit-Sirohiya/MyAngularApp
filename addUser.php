@@ -9,9 +9,11 @@
 	$obj->fname =mysqli_escape_string($con,$data->firstName);
 	$obj->lname =mysqli_escape_string($con,$data->lastName);
 	$obj->phone =mysqli_escape_string($con,$data->phone);
-	$obj->country =mysqli_escape_string($con,$data->country);
+	$obj->gender =mysqli_escape_string($con,$data->gender);
+	$obj->cityId =mysqli_escape_string($con,$data->cityId);
+	
 
-	$qry = 'INSERT INTO user_info(fname,lname,phone,country) values("' . $obj->fname . '","' . $obj->lname . '","' . $obj->phone . '","'.$obj->country.'")';
+	$qry = 'INSERT INTO user_info(fname,lname,phone,gender,cityId) values("' . $obj->fname . '","' . $obj->lname . '","' . $obj->phone . '","'.$obj->gender. '","'.$obj->cityId.'")';
 	
     $qry_res = mysqli_query($con,$qry);
 

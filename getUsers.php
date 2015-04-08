@@ -5,7 +5,10 @@
 	
 	$user_array=array();
 
-	$qry = 'Select id, fname, lname,phone,country from user_info';
+	$qry = "Select ui.id, ui.fname, ui.lname,ui.gender,ui.phone,co.countryName,st.stateName,cy.cityName from user_info ui
+			  LEFT JOIN cities cy ON ui.cityId=cy.cityId 
+			  LEFT JOIN states st ON cy.stateId=st.stateId
+			  LEFT JOIN countries co ON st.countryId=co.countryId";
     $qry_res = mysqli_query($con,$qry);
 	
 	while ($row = mysqli_fetch_assoc($qry_res)) {
