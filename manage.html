@@ -1,5 +1,5 @@
 
-<h2>Add a new user</h2>
+<h2 class="form-heading">Add a new user</h2>
 <div ng-controller="manageController" class="manageUser">
 	<form name="userForm" class="simple-form" ng-submit="addUser(user,$event)" novalidate>  
 		 <div>
@@ -7,20 +7,20 @@
 			  First Name
 			</label>
 	        <div>
-	           <input type="text" name="fname" ng-model="user.firstName" placeholder="First Name" ng-maxlength="12" required/>
+	           <input type="text" name="fname" editable-text="user.firstName" ng-model="user.firstName" placeholder="First Name" ng-maxlength="12" required/>
 			   <span style="color:red" ng-show="userForm.fname.$invalid && userForm.fname.$dirty">
-			     <span ng-show="userForm.fname.$invalid && userForm.fname.$dirty" class="help-block">Invalid</span>
-			   </span>
+			     Invalid
 			 </div>
 		 </div>	 
+		 
 		 <div>
 			<label class="desc">
 			  Last Name
 			</label>
 	        <div>
-	           <input type="text" name="lname" ng-model="user.lastName" ng-maxlength="12" placeholder="Last Name" required> 
-			   <span style="color:red" ng-show="userForm.lname.$dirty && userForm.lname.$invalid">
-			      <span ng-show="userForm.lname.$error.required">Invalid</span>
+	           <input type="text" name="lname" ng-model="user.lastName"  placeholder="Last Name" ng-maxlength="12" required/> 
+			   <span style="color:red" ng-show="userForm.lname.$invalid && userForm.lname.$dirty  ">
+			      Invalid
 			   </span>
 			 </div>
 		 </div>	 
@@ -30,9 +30,12 @@
 			  Gender
 			</label>
 	        <div>
-	            <select ng-model="user.gender" ng-options="obj for obj in genderValue">
+	            <select  name="gender" ng-model="user.gender" ng-options="obj for obj in genderValue" required>
                    <option value="">Select</option>
                 </select>
+				<span style="color:red" ng-show="userForm.gender.$invalid && userForm.gender.$dirty">
+			      Select gender
+			    </span>
 			 </div>
 		 </div>
 		 
@@ -41,12 +44,12 @@
 			  Phone 
 			</label>
 	        <div>
-	           <input type="number" name="phone" ng-model="user.phone" ng-minlength="10" ng-maxlength="10" placeholder="Phone number"  required>
+	           <input type="number" name="phone" ng-model="user.phone" ng-minlength="10" ng-maxlength="10" placeholder="10 digit Phone number"  required>
 			   <span style="color:red" ng-show="userForm.phone.$dirty && userForm.phone.$invalid">
 			      <span ng-show="userForm.phone.$error.required">Invalid</span>
 			   </span>
 			   <span style="color:red" class="help-block" ng-show="((userForm.phone.$error.minlength || userForm.phone.$error.maxlength) && userForm.phone.$dirty) ">
-			       Phone no. should be of 10 digits
+			      exactly 10 digits
 			   </span>
 			 </div>
 		 </div>	 
@@ -57,9 +60,12 @@
 			  Country
 			</label>
 	        <div> 
-				<select ng-model="user.countryId" ng-change="onCountryChange()" ng-options="obj.countryId as obj.countryName for obj in countryList">
+				<select name="country" ng-model="user.countryId" ng-change="onCountryChange()" ng-options="obj.countryId as obj.countryName for obj in countryList" required>
 				  <option value="">Select</option>
 				</select>
+				<span style="color:red" ng-show="userForm.country.$invalid && userForm.country.$dirty">
+			      Select Country
+			    </span>
 			</div>
 		</div>	 
         
@@ -68,9 +74,12 @@
 			  State
 			</label>
 	        <div>
-				<select ng-model="user.stateId" ng-disabled="!user.countryId" ng-change="onStateChange()" ng-options="obj.stateId as obj.stateName for obj in stateList">
+				<select name="state" ng-model="user.stateId" ng-disabled="!user.countryId" ng-change="onStateChange()" ng-options="obj.stateId as obj.stateName for obj in stateList" required>
 				   <option value="">Select</option>
 				</select>		
+				<span style="color:red" ng-show="userForm.state.$invalid && userForm.state.$dirty">
+			      Select State
+			    </span>
 	        </div>
 		</div>	 
 		
@@ -79,9 +88,12 @@
 			  City
 			</label>
 	        <div>
-				<select ng-model="user.cityId" ng-disabled="!user.countryId || !user.stateId" ng-options="obj.cityId as obj.cityName for obj in cityList">
+				<select name="city" ng-model="user.cityId" ng-disabled="!user.countryId || !user.stateId" ng-options="obj.cityId as obj.cityName for obj in cityList" required>
 				    <option value="">Select</option>
 				</select>
+				<span style="color:red" ng-show="userForm.city.$invalid && userForm.city.$dirty">
+			      Select City
+			    </span>
 		 	 </div>
 		 </div>	 
 		 

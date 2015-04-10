@@ -103,6 +103,7 @@ form > div > label{
   float: left;
   padding-right: 8px;
   color:#000099;
+  margin-left: 50px;
 }
 
 .userCreated{
@@ -113,10 +114,19 @@ form > div > label{
   padding: 11px;
   background-color: aliceblue;
   box-shadow: 10px 10px 5px #808080;
+  margin-right: 120px;
+  margin-left: 56px;
 }
 
 h2{
  color:#000099;
+}
+.form-heading{
+ text-align:center;
+}
+
+.buttonGroup{
+  text-align:center;
 }
 
 .deleteIcon{
@@ -126,7 +136,8 @@ h2{
 
 .userDetail{
   text-align:center;
-  width: 220px;
+  width: 240px;
   box-shadow: 10px 10px 5px #808080;
   color: #5597B4;
+  padding:10px;
 }
