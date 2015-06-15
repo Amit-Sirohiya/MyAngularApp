@@ -9,17 +9,18 @@ Database -
 
 2.Create table "user_info"
 
- CREATE TABLE
+ 	CREATE TABLE
 	    user_info
-	    (
-		        id INT(3) NOT NULL AUTO_INCREMENT,
-		        fname VARCHAR(10) NOT NULL,
-		        lname VARCHAR(10) NOT NULL,
-		        phone DECIMAL(13,0),
-		        country VARCHAR(10),
-		        PRIMARY KEY (id)
-	    )
-	    ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		    (
+			        id INT(3) NOT NULL AUTO_INCREMENT,
+			        fname VARCHAR(12) NOT NULL,
+			        lname VARCHAR(12) NOT NULL,
+			        phone DECIMAL(13,0) NOT NULL,
+			        cityId bigint(10) NOT NULL,
+			        gender VARCHAR(6) NOT NULL,
+			        PRIMARY KEY (id)
+		    )
+	    	ENGINE=InnoDB DEFAULT CHARSET=utf8;
 	
 3.Create table "countries"
 
