@@ -1,4 +1,4 @@
-app.config(["$routeProvider",function($routeProvider){
+app.config(["$routeProvider","$locationProvider",function($routeProvider, $locationProvider){
 	$routeProvider.
 	when('/manage',{
 		templateUrl: 'manage.html',
@@ -12,4 +12,7 @@ app.config(["$routeProvider",function($routeProvider){
 	  templateUrl: 'list.html',
 	  controller: 'userController'
 	});
+	
+	// use the HTML5 History API
+    $locationProvider.html5Mode(true).hashPrefix('!');
 }]);

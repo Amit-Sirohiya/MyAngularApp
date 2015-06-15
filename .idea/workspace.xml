@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7399f66-da07-410b-9abc-1d0c1587c55f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/images/team1.jpg" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/images/team1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/images/team2.jpg" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/images/team2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/images/team3.jpg" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/images/team3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/images/team4.jpg" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/images/team4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/images/team5.jpg" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/images/team5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/images/team6.jpg" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/images/team6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/.gitignore" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/404.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/500.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/Gruntfile.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/README.md" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/about.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addUser.php" afterPath="$PROJECT_DIR$/addUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/app.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/bower.json" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/buttons.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/charts/chartjs.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/charts/chartjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/charts/charts.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/charts/charts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/components.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/components.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/mail/compose.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/mail/compose.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/config.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/contact.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/dashboards/dashboard.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/dashboards/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/dashboards/dashboard1.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/dashboards/dashboard1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/dashboards/dashboard2.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/dashboards/dashboard2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deleteUser.php" afterPath="$PROJECT_DIR$/deleteUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/dynamic.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/dynamic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/forms/elements.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/forms/elements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/scripts/extras.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/scripts/extras.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/charts/flot.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/charts/flot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/forgot-password.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/forgot-password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getDetails.php" afterPath="$PROJECT_DIR$/getDetails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getUsers.php" afterPath="$PROJECT_DIR$/getUsers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/maps/gmap.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/maps/gmap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/scripts/gmap.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/scripts/gmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/grids.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/grids.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/header.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/icons.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/mail/inbox.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/mail/inbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/index.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/maps/jqvmap.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/maps/jqvmap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/forms/layouts.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/forms/layouts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.html" afterPath="$PROJECT_DIR$/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.html" afterPath="$PROJECT_DIR$/manage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Controllers/manageController.js" afterPath="$PROJECT_DIR$/js/Controllers/manageController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/material.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/material.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/module.js" afterPath="$PROJECT_DIR$/js/module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/charts/morris.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/charts/morris.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation.html" afterPath="$PROJECT_DIR$/navigation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/navigation.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/navigation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/nested-lists.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/nested-lists.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/scripts/other_charts.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/scripts/other_charts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/package.json" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/profile.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/responsive.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/responsive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/routes/routes.js" afterPath="$PROJECT_DIR$/js/routes/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/services.js" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/service/services.js" afterPath="$PROJECT_DIR$/js/service/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/signin.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/signin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/signup.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/mail/single.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/mail/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/static.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/static.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/styles/styles.css" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/tasks/tasks.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/tasks/tasks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/timeline.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/typography.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/typography.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Controllers/userController.js" afterPath="$PROJECT_DIR$/js/Controllers/userController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user_info_template.html" afterPath="$PROJECT_DIR$/templates/user_info_template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/forms/validation.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/forms/validation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view.html" afterPath="$PROJECT_DIR$/view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Controllers/viewUserController.js" afterPath="$PROJECT_DIR$/js/Controllers/viewUserController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/widgets.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/ui_elements/widgets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/forms/wizard.html" afterPath="$PROJECT_DIR$/ioadmin/ioadmin/app/views/forms/wizard.html" />
+    </list>
+    <ignored path="myApp.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="myApp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewUsers.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/viewUsers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30141845">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="585" column="29" selection-start-line="585" selection-start-column="29" selection-end-line="585" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1431946776900" expanded="true" signature="89502:89926" placeholder="..." />
+                <marker date="1431946776900" expanded="true" signature="89972:90104" placeholder="..." />
+                <marker date="1431946776900" expanded="true" signature="90146:90269" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="510" selection-start-line="5" selection-start-column="510" selection-end-line="5" selection-end-column="510" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/addUser.html" />
+        <option value="$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/usersList.html" />
+        <option value="$PROJECT_DIR$/ioadmin/ioadmin/app/app.js" />
+        <option value="$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/viewUsers.html" />
+        <option value="$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js" />
+        <option value="D:/Documents/reliance password.txt" />
+        <option value="$PROJECT_DIR$/list.html" />
+        <option value="$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true">
+    <gruntfile path="$PROJECT_DIR$/ioadmin/ioadmin/Gruntfile.js">
+      <alias-task name="copy-icons" info="Alias for &quot;copy:copyicons&quot; task." file-path="$PROJECT_DIR$/ioadmin/ioadmin/Gruntfile.js">
+        <dependency value="copy:copyicons" />
+      </alias-task>
+      <alias-task name="dev" info="Alias for &quot;bower&quot;, &quot;connect:server&quot;, &quot;watch:dev&quot; tasks." file-path="$PROJECT_DIR$/ioadmin/ioadmin/Gruntfile.js">
+        <dependency value="bower" />
+        <dependency value="connect:server" />
+        <dependency value="watch:dev" />
+      </alias-task>
+      <alias-task name="minified" info="Alias for &quot;bower&quot;, &quot;connect:server&quot;, &quot;watch:min&quot; tasks." file-path="$PROJECT_DIR$/ioadmin/ioadmin/Gruntfile.js">
+        <dependency value="bower" />
+        <dependency value="connect:server" />
+        <dependency value="watch:min" />
+      </alias-task>
+      <alias-task name="test" info="Alias for &quot;bower&quot;, &quot;jshint&quot; tasks." file-path="$PROJECT_DIR$/ioadmin/ioadmin/Gruntfile.js">
+        <dependency value="bower" />
+        <dependency value="jshint" />
+      </alias-task>
+      <core-task name="bower" info="Install Bower packages." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-bower-task/tasks/bower_task.js" multi="true">
+        <target value="install" />
+      </core-task>
+      <core-task name="clean" info="Clean files and folders." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-clean/tasks/clean.js" multi="true">
+        <target value="temp" />
+      </core-task>
+      <core-task name="compress" info="Compress files." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-compress/tasks/compress.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="concat" info="Concatenate files." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-concat/tasks/concat.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="connect" info="Start a connect web server." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-connect/tasks/connect.js" multi="true">
+        <target value="server" />
+      </core-task>
+      <core-task name="copy" info="Copy files." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-copy/tasks/copy.js" multi="true">
+        <target value="main" />
+        <target value="copyicons" />
+      </core-task>
+      <core-task name="cssmin" info="Minify CSS" file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-cssmin/tasks/cssmin.js" multi="true">
+        <target value="combine" />
+        <target value="add_banner" />
+      </core-task>
+      <core-task name="html2js" info="Compiles Angular-JS templates to JavaScript." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-html2js/tasks/html2js.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="jshint" info="Validate files with JSHint." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-jshint/tasks/jshint.js" multi="true">
+        <target value="all" />
+      </core-task>
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="watch" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
+        <target value="dev" />
+        <target value="min" />
+      </core-task>
+    </gruntfile>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSClosureCompilerSyntax</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ioadmin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ioadmin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ioadmin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ioadmin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ioadmin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="js.buildTools.grunt.node_interpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="C:\Users\Amit\AppData\Roaming\npm\node_modules\grunt-cli" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ioadmin/ioadmin/index.html" />
+    <property name="js.buildTools.gulp.node_interpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+  </component>
+  <component name="RunManager" selected="Grunt.js.Grunt dev">
+    <configuration default="false" name="viewUsers.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost/myApp/ioadmin/ioadmin/app/views/myViews/viewUsers.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartRemoteDebugConfigurationType" factoryName="Dart Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost/myApp/ioadmin/ioadmin/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <pass-parent-env-vars value="true" />
+      <force value="false" />
+      <verbose value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Grunt dev" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <gruntfile value="F:\xampp\htdocs\myApp\ioadmin\ioadmin\Gruntfile.js" />
+      <tasks>
+        <task value="dev" />
+      </tasks>
+      <pass-parent-env-vars value="true" />
+      <force value="false" />
+      <verbose value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Localhost Debug" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:8888/#/dashboard">
+      <mapping url="http://localhost:8888/#" local-file="$PROJECT_DIR$/ioadmin/ioadmin/app" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Grunt.js.Grunt dev" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Localhost Debug" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.viewUsers.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.viewUsers.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_CLASSES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7399f66-da07-410b-9abc-1d0c1587c55f" name="Default" comment="" />
+      <created>1429790242823</created>
+      <option name="number" value="Default" />
+      <updated>1429790242823</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19239374" sideWeight="0.48504272" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19256505" sideWeight="0.51495725" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39739415" sideWeight="0.5108128" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65798044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17589577" sideWeight="0.49739778" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24025974" sideWeight="0.49291572" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39739415" sideWeight="0.48918718" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="SHOW_ROOT_NAMES" value="true" />
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint log-message="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/responsive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/viewUsers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="80" selection-start-line="87" selection-start-column="80" selection-end-line="87" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1431946776900" expanded="true" signature="89502:89926" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="89972:90104" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="90146:90269" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="510" selection-start-line="5" selection-start-column="510" selection-end-line="5" selection-end-column="510" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/usersList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/responsive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/viewUsers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1431946776900" expanded="true" signature="89502:89926" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="89972:90104" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="90146:90269" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="510" selection-start-line="5" selection-start-column="510" selection-end-line="5" selection-end-column="510" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="539" column="29" selection-start-line="539" selection-start-column="29" selection-end-line="539" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/usersList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/responsive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/viewUsers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1431946776900" expanded="true" signature="89502:89926" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="89972:90104" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="90146:90269" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="510" selection-start-line="5" selection-start-column="510" selection-end-line="5" selection-end-column="510" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="539" column="29" selection-start-line="539" selection-start-column="29" selection-end-line="539" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/usersList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/viewUsers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="545" column="68" selection-start-line="545" selection-start-column="68" selection-end-line="545" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/usersList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/responsive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1431946776900" expanded="true" signature="89502:89926" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="89972:90104" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="90146:90269" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1431946776900" expanded="true" signature="89502:89926" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="89972:90104" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="90146:90269" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/usersList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/node_modules/grunt/node_modules/lodash/lodash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="176" column="41" selection-start-line="176" selection-start-column="41" selection-end-line="176" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16385542">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/pages/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1431946776900" expanded="true" signature="89502:89926" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="89972:90104" placeholder="..." />
+            <marker date="1431946776900" expanded="true" signature="90146:90269" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.47511312">
+          <caret line="219" column="12" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/bower_components/angular-material/modules/closure/input/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.961538">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="585" column="29" selection-start-line="585" selection-start-column="29" selection-end-line="585" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/tables/responsive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="510" selection-start-line="5" selection-start-column="510" selection-end-line="5" selection-end-column="510" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioadmin/ioadmin/app/views/myViews/viewUsers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30141845">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -44,7 +44,7 @@
 			  Phone 
 			</label>
 	        <div>
-	           <input type="number" name="phone" ng-model="user.phone" ng-minlength="10" ng-maxlength="10" placeholder="10 digit Phone number"  required>
+	           <input type="number" name="phone" ng-model="user.phone" placeholder="10 digit Phone number" ng-minlength="10" ng-maxlength="10" required>
 			   <span style="color:red" ng-show="userForm.phone.$dirty && userForm.phone.$invalid">
 			      <span ng-show="userForm.phone.$error.required">Invalid</span>
 			   </span>
@@ -108,4 +108,7 @@
    <div ng-bind="fromServer" class="userCreated">
 
    </div>
+
+
+   
 </div>

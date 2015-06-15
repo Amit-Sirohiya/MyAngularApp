@@ -1,8 +1,8 @@
-<div ng-controller="userController">
+<div ng-cloak >
    <h2>Users list</h2>
-   <div>	   
-	   Filter  <input type="text" name="searchUser" ng-model="searchUser" placeholder="Search"/>
-	   <table>
+    <div>	   
+	   Filter by Fname  <input type="text" name="searchUser" ng-model="searchUser.fname" placeholder="Search"/>
+	   <table width="100%">
 		  <tr>	
 			<th></th>	  
 			<th>Name</th>
@@ -11,13 +11,16 @@
 			<th>Address</th>
 		  </tr>
 		  
-		  <tr ng-repeat="x in users | filter:searchUser | orderBy :'fname' ">  
+		  <tr class="animate" ng-repeat="x in users | orderBy :'fname' | filter:searchUser as res">  
 			<td><img src="img/delete.png" ng-click="deleteUser(x.id,x.fname,x.lname)" class="deleteIcon"/></td>      
-			<td><a class='home' href='#/view/{{x.id}}' >{{x.fname}} {{x.lname}}</a></td>
+			<td><a class='home' href='view/{{x.id}}' >{{x.fname}} {{x.lname}}</a></td>
 			<td>{{x.gender}}</td>
 			<td>{{x.phone}}</td>
 			<td>{{x.cityName}}, {{x.stateName}}, {{x.countryName}}</td>		
 		  </tr>           
-		</table>	
+		</table>         
    </div>
+   <div ng-show="res==''">No results found</div>
+   	   Currency {{ 1000 | currency }}<br>
+	   Date {{1288323623006 | date:'medium'}}<br>
 </div>

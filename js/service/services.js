@@ -1,6 +1,6 @@
-app.service( 'getAddress', [ '$rootScope','$http', function( $rootScope,$http ) {
-   var service = {
-     getAdd: function (name,countryId,stateId) {
+app.service( 'getAddressService', ['$http', function($http ) {
+
+     this.getAdd=function (name,countryId,stateId) {
 		  var url='/myApp/getDetails.php?getParam="'+name+'"';
 		  if(name=="state"){
 		   url=url+'&countryId="'+countryId+'"';
@@ -14,6 +14,4 @@ app.service( 'getAddress', [ '$rootScope','$http', function( $rootScope,$http ) 
       // Return the promise to the controller
       return promise;
     }
-  };
-  return service;
  }]);

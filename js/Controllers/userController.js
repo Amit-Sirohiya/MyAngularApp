@@ -1,8 +1,10 @@
 
-app.controller('userController',['$scope','$http',function($scope,$http) {
-	
+app.controller('userController',function($scope,$http,GLOBAL_CON,createdBy) {
+     console.log(createdBy.name);    
+	 $scope.appHeading=GLOBAL_CON.APP_HEADER;
+	 
 	 $scope.deleteUser=function(id,fname,lname){
-	  var confirmed=window.confirm("Are you sure you wanna delete user '"+fname+" "+lname+"' ?");
+	   var confirmed=window.confirm("Are you sure you wanna delete user '"+fname+" "+lname+"' ?");
 	   
 	   if(confirmed){
 		   var responsePromise =$http.delete("deleteUser.php?userid="+id);
@@ -27,13 +29,6 @@ app.controller('userController',['$scope','$http',function($scope,$http) {
 			});
 			   
 	   }
-     };
-				
-	
-   var promise=$http.get('getUsers.php');
-	
-	promise.success(function(data) {
-	  $scope.users = data;
-    });	    	
-}]);
+     };				
+});
 

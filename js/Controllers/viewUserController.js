@@ -5,5 +5,5 @@ app.controller('viewUserController',['$scope','$http','$routeParams',function($s
 	promise.success(function(data) {
 	  $scope.user=data;
     });	    
-	
+
 }]);
